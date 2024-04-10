@@ -40,7 +40,7 @@ const Footer = () => {
             <img className='w-3 h-3 sm:w-6 sm:h-6' src={Youtube} alt="" />
          </div>
 
-         <h1 className='text-xs text-gray-500 font-thin py-6'>Copyright Calendly 2022</h1>
+         
 
         </div>
 
@@ -163,10 +163,18 @@ const Footer = () => {
                     </li>
 
                 </ul> 
+
+
+
+                
             </div> 
 
         
      </div>
+          <div className='flex justify-between px-1'>
+          <h1 className='text-xs text-gray-500 font-thin py-6'>Copyright Calendly 2022</h1>
+          <h3 className='text-xs text-gray-500 font-thin py-6'>Privacy / Terms and Conditions</h3>
+          </div>
    </>
   )
 }
